@@ -1,4 +1,4 @@
-# sysadmin-scripts
+# SysAdmin Scripts
 
 Scripts and hints for common system administration tasks.
 
