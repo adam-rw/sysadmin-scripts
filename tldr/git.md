@@ -22,4 +22,8 @@ Adds a tag v1.2 to commit starting with 9fceb02 - useful for tagging releases.
 
 `git revert 9fceb02`
 
-Undoes a previous commit without losing history. Creates new commit with the changes.
+Undoes a previous commit without losing history. Creates new commit with the changes. Note this just removes the particular commit, not any subsequent commits. 
+
+`git reset --hard <commit>`
+
+Permanent reset back to specified or HEAD (most recent commit). Useful for alligning local clone with remote repo, but is dangeous in that any local changes would be lost.
